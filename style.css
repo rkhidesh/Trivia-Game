@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lobster', cursive;
+}
+
+body {
+    background: url("trivia-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    height: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#title {
+    position: absolute;
+    top: 4rem;
+    font-size: 5rem;
+}
+
+#flashcard {
+    background-color: white;
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 16rem;
+    border-radius: 1rem;
+    box-shadow: 15px 15px;
+}
+
+#trueBtn {
+    position: absolute;
+    top: 36rem;
+    left: 40rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+#trueBtn:active {
+    box-shadow: 0px 0px 0px 0px;
+    transform: translateY(4px);
+}
+
+#falseBtn {
+    position: absolute;
+    top: 36rem;
+    right: 40rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+#falseBtn:active {
+    box-shadow: 0px 0px 0px 0px;
+    transform: translateY(4px);
+}
+
+#triviaQuestion {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.5rem 1rem 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#score {
+    position: absolute;
+    font-family: 'Poppins', sans-serif;
+    top: 12rem;
+    font-size: 1.8rem;
+}
+
+#start {
+    position: absolute;
+    top: 7rem;
+    right: 7rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+}
+
+#start:active {
+    box-shadow: 0px 0px 0px 0px;
+    transform: translateY(4px);
+}
+
+#finalScore {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 2.5rem 1rem 1rem 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+#restart {
+    position: absolute;
+    top: 8rem;
+    right: 7.5rem;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+    cursor: pointer;
+    border: 3px solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    visibility: hidden;
+}
+
+#restart:active {
+    box-shadow: 0px 0px 0px 0px;
+    transform: translateY(4px);
+}
